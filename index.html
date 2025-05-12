@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Event Assignment</h1>
+    </header>
+    <main>
+        <!-- Event Handling Section -->
+        <section id="event-handling">
+            <h2>Event Handling 🎈</h2>
+            <button id="change-text-btn">Click Me</button>
+            <p id="hover-text">Hover over me!</p>
+            <input type="text" id="keypress-input" placeholder="Type something..." />
+        </section>
+
+        <!-- Interactive Elements Section -->
+        <section id="interactive-elements">
+            <h2>Interactive Elements 🎮</h2>
+            <button id="color-change-btn">Change My Color</button>
+            <div id="image-gallery">
+                <img src="https://via.placeholder.com/150" alt="Placeholder 1" />
+                <img src="https://via.placeholder.com/150" alt="Placeholder 2" />
+                <img src="https://via.placeholder.com/150" alt="Placeholder 3" />
+            </div>
+        </section>
+
+        <!-- Form Validation Section -->
+        <section id="form-validation">
+            <h2>Form Validation 📋✅</h2>
+            <form id="validation-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+                <span id="email-error" class="error"></span>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required minlength="8" />
+                <span id="password-error" class="error"></span>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Interactive Assignment</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
